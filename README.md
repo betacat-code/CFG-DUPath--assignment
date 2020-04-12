@@ -21,7 +21,7 @@ gen_du：分析c源代码的cfg和ast 输出某个变量的du path
 
 自己模块详解：  
 gen_cfg.py  
-GenCfg 输入c源代码生成cfg
+GenCfg 输入c源代码生成cfg  
 CfgToDot 输入cfg生成有向图
 
 gen_du.py  
