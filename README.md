@@ -19,6 +19,14 @@ graphviz: 与graphviz软件进行交互的python模块
 gen_cfg: 分析c源代码 生成cfg 生成cfg的有向图  
 gen_du：分析c源代码的cfg和ast 输出某个变量的du path
 
+自己模块详解：  
+gen_cfg.py  
+GenCfg 输入c源代码生成cfg
+CfgToDot 输入cfg生成有向图
+
+gen_du.py  
+GenDu 输入c源代码生成ast，利用ast与之前生成的cfg，分析得到du path
+
 -------------------------------------
 作业缺点:  
 cfg缺点  
