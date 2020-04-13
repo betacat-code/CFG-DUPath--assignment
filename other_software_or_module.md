@@ -3,8 +3,8 @@
 --------------------------------------
 gcc编译器就可以显示c源代码的cfg 但是是二进制的 而且格式不太好看 所以我选择自己写。  
 命令如下：  
-gcc -o -dv prog.c -o prog
-gcc -fdump-tree-cfg prog.c 
+gcc -o -dv prog.c -o prog  
+gcc -fdump-tree-cfg prog.c  
 gcc -fdump-tree-vcg prog.c  
 
 ---------------------------------------
